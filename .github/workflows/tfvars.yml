@@ -20,7 +20,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # Change to self-hosted if needed 
     environment: "${{ inputs.environment }}"
     steps:
     - name: Git Clone
